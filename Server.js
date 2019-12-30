@@ -2,6 +2,8 @@
 const express = require('express');
 const path = require('path');
 
+console.log(path.join(__dirname+'/index.html'));
+
 const app = express();
 
 // Serve only the static files form the dist directory
